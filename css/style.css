@@ -4,53 +4,23 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-/* :root{
-    --primaryText: #509cff;
-    --primaryTextColor: #232e35;
-    --secondaryTextColor: #656d72;
-    
-    --borderColor: #f1f1f1;
-    --lineColor: #d9d9d9;
-    
-    --primaryBackground: #fff9f7;
-    --primaryBackgroundColor: #fff;
-    --secondaryBackgroundColor: #fbfbfb;
-    --thirdBackgroundColor: #f5f3fe;
-
-    --primaryIconColor: #d2e0e5;
-    --primaryIconColorHover: #2075ff;
-    --primaryIconColorHover1: #7e74f1;
-    --primaryIconColorHover2: #5d51e8;
-
-    --sectionPadding: 6rem 0;
-    
-    --itemBorederRadius: 0.7rem
-} */
-
-/* body{
-    width: 1200px;
-    margin: 0 auto;
-}
-@media screen and (max-width: 1200px) {
-    body{
-        width: 90%;
-    }
-} */
-/* h1,h2,h3,h4,h5,h6,strong{
-    color: var(--primaryTextColor);
-} */
-/* p{
-    font-size: 1rem; line-height: 1.9rem;
-} */
-/* p,span,label,input,textarea,li{
-    color: var(--secondaryTextColor);
-} */
-/* a{
-    text-decoration: none;
-} */
-/* .container-fluid-nav{
+#carouselExampleInterval{
     display: flex;
+    height: 100%;
+    align-items: center;
 }
-.navbar-brand{
+.carousel-control-next, .carousel-control-prev{
+    height: 10vh;
+    top: auto;
+    bottom: auto;
+}
+.carousel img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+.col-4{
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+}
